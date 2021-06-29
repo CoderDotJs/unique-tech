@@ -1,0 +1,951 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  overflow-x: hidden;
+}
+
+                /*==========Header Section ==========*/
+
+#header{
+  font-size: 15px;
+  font-weight: 800;
+  background: #ffc038;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+#header .container{
+  margin: 0 auto;
+}
+#header .navbar {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+    color: #464646 !important;
+}
+.collapse{
+  text-align: center;
+}
+.navbar-toggler-icon{
+  border: none;
+  outline: none;
+}
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+#header .navbar .nav-link{
+  transition: color 0.4s ease 0s;
+}
+#header .navbar  .nav-link:hover{
+  color: #fff !important;
+}
+#header .btn {
+  transition: all 0.5s ease 0s;
+}
+                /*==========End Header Section ==========*/
+
+
+                /*==========Hero Section ==========*/
+
+#hero{
+  background: #ffc038;
+  display: table;
+  width: 100%;
+}
+#hero h1{
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+#hero p{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 0 20px 0 0;
+}
+#hero .col-lg-7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#hero .btn{
+  padding: 13px 30px;
+  font-family: roboto;
+  font-size: 14px;
+  background: #464646;
+  border: none;
+}
+
+
+                /*==========End Hero Section ==========*/
+
+
+
+
+                /*==========What We Do ==========*/
+
+#whatdo h1{
+  margin: 72px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+
+}
+
+#whatdo h1 span{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#whatdo h1 span::after{
+  content: " ";
+  background: url(../images/rtarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -181%;
+  left: 96%;
+}
+#whatdo h5{
+  font-family: roboto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#whatdo p{
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 300;
+  color: #5e5e5e;
+}
+#whatdo .btn{
+  padding: 13px 25px;
+  font-family: roboto;
+  font-size: 14px;
+  color: #000;
+  background: #ffc038;
+  border: none;
+  font-weight: bold;
+}
+#whatdo .container .row{
+  padding: 150px 0 0 0;
+}
+#whatdo .container .row:first-child{
+  padding: 70px 0 0 0;
+}
+.col-img{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+                /*==========End What We Do ==========*/
+
+
+                /*==========Our Features Section ==========*/
+
+#features{
+  width: 100%;
+  overflow-y: hidden !important;
+}
+#features .container{
+  padding-top: 80px;
+}
+#features .container .row{
+  margin: 0 auto;
+}
+#features h1{
+  margin: 72px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+}
+#features h1 span{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#features h1 span::after{
+  content: " ";
+  background: url(../images/rtarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -181%;
+  left: 96%;
+}
+#features .container .row h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+#features .container .row p{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+                /*==========End Our Features Section ==========*/
+
+
+                /*==========Our Packages Section ==========*/
+
+#packages .text-center{
+  margin: 72px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+}
+#packages{
+  width: 100%;
+}
+#packages h1 .arrow{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#packages h1 .arrow::after{
+  content: " ";
+  background: url(../images/lftarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -181%;
+  right: 92%;
+}
+#packages .container .row{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+#packages .container .row .col-lg-4{
+  margin-top: 20px !important;
+}
+#packages .container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#packages .container .row .col-2nd{
+  border-left: 2px solid #ffbf37;
+  border-right: 2px solid #ffbf37;
+}
+#packages .container .row .inner-ele{
+  border-bottom: 2px solid #ffbf37;
+  padding: 10px 0;
+}
+#packages .container .row .btn{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 57px;
+  border-radius: none !important;
+  border: none;
+  transition: all 0.5s ease-in-out 0s;
+}
+#packages .container .row .price-1, .price-2, .price-3{
+  padding: 40px 0;
+  transition: all 0.4s ease-in-out 0s;
+  backface-visibility: hidden;
+}
+#packages .container .row .fe-heading-1, .fe-heading-2, .fe-heading-3{
+  padding: 30px 0;
+  font-size: 40px;
+  transition: all 0.4s ease-in-out 0s;
+}
+#packages .container .row .price-1{
+  color: #a5a5a5;
+}
+#packages .container .row .price-2{
+  color: #f26c4f;
+}
+#packages .container .row .price-3{
+  color: #ffc038;
+}
+#packages .container .row .btn-1{
+  background: #a5a5a5;
+}
+#packages .container .row .btn-2{
+  background: #f26c4f;
+}
+#packages .container .row .btn-3{
+  background: #ffc038;
+}
+#packages .container .row .col-lg-4:hover h2{
+  font-size: 47px;
+  padding: 23.5px 0;
+}
+#packages .container .row .col-lg-4:hover h1{
+  font-size: 43px !important;
+  padding: 23.5px 0;
+}
+#packages .container .row .col-lg-4:hover .btn{
+  padding: 20px 75px;
+}
+.fa-paper-plane{
+  overflow-x: visible;
+  transform: rotate(40deg);
+}
+
+
+                /*==========End Our Packages Section ==========*/
+
+
+                /*==========Our History ==========*/
+#history{
+  background: #f0efef;
+  padding: 4% 0%;
+  width: 100%;
+}
+#history .row .col-lg-5 h1 span{
+  font-size: 26px;
+  padding: 10px 40px;
+  color: #fff;
+  background: #000000;
+  height: auto;
+  text-transform: uppercase;
+}
+#history .row .col-lg-5 h1{
+  margin: 0;
+  text-align: left;
+  height: auto;
+  overflow-x: visible;
+}
+#history .row .col-lg-5 .btn{
+  padding: 15px 25px;
+  background: #ffc038;
+  border: none;
+  border-radius: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+#history .row .col-lg-5 p{
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffc038;
+  padding: 20px 0 0 0;
+}
+
+
+                /*==========End Our History ==========*/
+
+
+                /*==========Our Brand ==========*/
+#brand h1{
+  margin: 72px auto 140px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+}
+#brand h1 span{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#brand h1 span::after{
+  content: " ";
+  background: url(../images/rtarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -170%;
+  left: 96%;
+}
+
+#brand .row{
+  background: #f4f4f4;
+  padding: 0 20px;
+}
+#brand .row .col-lg-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 55px 0 0 0 ;
+}
+#brand .row .col-lg-3 h2{
+  font-size: 22px;
+  text-align: center;
+  padding: 40px 0;
+}
+#brand .row .col-lg-3 img{
+  height: 92px;
+  width: 131px;
+}
+
+                /*==========End Our Brand ==========*/
+
+
+
+                /*==========Team Member ==========*/
+#team .text-center{
+  margin: 72px auto 170px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+
+}
+#team{
+  width: 100%;
+}
+#team .container-fluid{
+  background: #ffc038;
+  color: #fff;
+}
+#team h1 .arrow{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#team h1 .arrow::after{
+  content: " ";
+  background: url(../images/lftarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -181%;
+  right: 95%;
+}
+#team img{
+  height: 70px;
+  width: 70px;
+}
+#team h4{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+#team p{
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  color: #fff !important;
+}
+#team .row{
+  margin: 50px 0;
+}
+
+
+                /*==========End Team Member ==========*/
+
+
+                /*==========Support Section ==========*/
+
+#support h1{
+  margin: 72px auto 140px auto;
+  font-family: 'Source Sans Pro';
+  overflow-x: visible;
+}
+#support h1 span{
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 10px 70px;
+  width: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  overflow: visible;
+}
+#support h1 span::after{
+  content: " ";
+  background: url(../images/rtarrow.png) no-repeat ;
+  height: 114px;
+  width: 26%;
+  background-color: transparent;
+  position: absolute;
+  bottom: -170%;
+  left: 96%;
+}
+
+#support .row .col-lg-5 img{
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+#support .row .col-lg-5 .btn{
+  padding: 15px 25px;
+  background: #ffc038;
+  border: none;
+  border-radius: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+#support p{
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+}
+
+                /*==========End Supporst Section ==========*/
+
+
+                /*==========Banner section ==========*/
+
+#banner .container-fluid{
+  margin: 72px 0;
+  background: url(../images/hire.png) no-repeat rgba(255, 191, 55, 0.5);
+  width: 100%;
+  height: 260px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+#banner .div2{
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 191, 55, 0.5);
+  margin: 0;
+  padding: 0 20%;
+  position: relative;
+}
+#banner .div2 p{
+  background: #ffc038;
+  padding: 20px 30px;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+#banner .div2 p span{
+  font-weight: bold;
+  color: #fff;
+}
+#banner .div2 button{
+  padding: 10px 33px;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+
+                /*==========End banner section ==========*/
+
+
+                /*==========Footer nav secttion ==========*/
+
+#footer{
+  background: #363636;
+  padding: 40px 0 0 0;
+}
+#footer h4{
+  color: #e6e9ed;
+}
+#footer ul li a{
+  color: #9197a0;
+}
+#footer .col-lg-3{
+  padding: 0 0 0 6%;
+}
+#footer .fab{
+  padding: 20px 0 0 0 ;
+  color: #fff;
+  background: #ffc038;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+#footer .container span{
+  display: inline-block !important;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 20px auto !important;
+  padding: 0;
+  border: none;
+}
+#footer .container p{
+  color: #aab2bd;
+}
+#footer .container p span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+                /*==========End footer nav section ==========*/
+
+
+                /*       --          Responsive Media Query           --      */
+
+
+
+                /*            ===       768-991px Devices       ===          */
+
+@media (min-width: 768px) and (max-width: 991px){
+  #hero p{
+    line-height: 17px;
+    font-size: 12px;
+  }
+  #hero h1{
+    font-size: 30px;
+  }
+  #whatdo p{
+    font-size: 13px;
+  }
+  #features .container .row .col-lg-4{
+    padding-top: 20px;
+  }
+  #whatdo .container .row{
+    padding-top: 70px;
+  }
+  #packages .container .row .col-2nd{
+    border-left: none;
+    border-right: none;
+  }
+  #history .col-img img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  #history .row .col-text{
+    padding-bottom: 50px;
+  }
+  #team .col-lg-2{
+    padding-bottom: 40px;
+  }
+  #team .row .col-lg-2 img{
+    height: 120px;
+    width: 120px;
+  }
+  #team .row .col-md-12 {
+    padding-top: 20px;
+  }
+  #team h4{
+    font-size: 30px;
+  }
+  #team p{
+    font-size: 17px;
+  }
+  #support img{
+    padding-top: 70px;
+  }
+  #support .col-text{
+    padding: 20px 50px;
+  }
+  #footer .fab{
+    padding-top: 2%;
+  }
+}
+
+
+
+                  /*            ===       320-767px Devices       ===          */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #header .navbar .navbar-brand img{
+    width: 150px !important;
+  }
+  #hero p{
+    line-height: 17px;
+    font-size: 12px;
+    text-align: center;
+  }
+  #hero h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  #hero button{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  #hero .col-lg-7 {
+    padding-top: 50px;
+  }
+  #whatdo h1 span::after {
+    content: " ";
+    background: url(../images/rtarrow.png) no-repeat;
+    height: 280%;
+    width: 37%;
+    background-color: transparent;
+    position: absolute;
+    bottom: -231%;
+    left: 94%;
+  }
+  #whatdo h1 span {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #whatdo .container .row .col-lg-5 img{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #whatdo p{
+    font-size: 12px;
+  }
+  #whatdo .btn{
+    font-size: 12px;
+  }
+  #whatdo .container .row {
+    padding: 40px 0 0 0;
+  }
+  #features h1 span::after {
+    content: " ";
+    background: url(../images/rtarrow.png) no-repeat;
+    height: 280%;
+    width: 37%;
+    background-color: transparent;
+    position: absolute;
+    bottom: -231%;
+    left: 94%;
+  }
+  #features h1 span {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #packages h1 .arrow {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #packages h1 .arrow::after {
+    content: " ";
+    background: url(../images/lftarrow.png) no-repeat;
+    height: 114px;
+    width: 72px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -226%;
+    right: 93%;
+  }
+  #packages .container .row .col-2nd{
+    border-left: none;
+    border-right: none;
+  }
+  #packages .container .row .col-lg-4:hover h2{
+    font-size: 47px;
+    padding: 23.5px 0;
+  }
+  #packages .container .row .col-lg-4:hover h1{
+    font-size: 43px !important;
+    padding: 23.5px 0;
+  }
+  #packages .container .row .col-lg-4:hover .btn{
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  #history .row .col-lg-5 h1 span {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  #history .row .col-lg-5 p {
+    font-size: 12px;
+  }
+  #history .row .col-lg-5 .btn {
+    padding: 12px 20px;
+  }
+  #brand h1 span {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 25px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #brand h1 span::after {
+    display: none;
+  }
+  #brand h1{
+    margin: 72px auto;
+    font-family: 'Source Sans Pro';
+    overflow-x: visible;
+  }
+  #team h1 .arrow {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #team h1 .arrow::after {
+    content: " ";
+    background: url(../images/lftarrow.png) no-repeat;
+    height: 114px;
+    width: 47%;
+    background-color: transparent;
+    position: absolute;
+    bottom: -223%;
+    right: 90%;
+  }
+  #team .row .col-lg-2{
+    padding: 20px 0;
+  }
+  #team .row .col-lg-2 img{
+    height: 100px;
+    width: 100px;
+  }
+  #team h4 {
+    font-size: 22px;
+  }
+  #support h1 span::after {
+    content: " ";
+    background: url(../images/rtarrow.png) no-repeat;
+    height: 114px;
+    width: 39%;
+    background-color: transparent;
+    position: absolute;
+    bottom: -219%;
+    left: 94%;
+  }
+  #support h1 span {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 10px 30px;
+    width: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    overflow: visible;
+  }
+  #support p {
+    font-size: 12px;
+  }
+  #support .row .col-img{
+    padding: 30px 0;
+  }
+  #banner .div2 p span {
+    display: none;
+  }
+  #banner .div2 button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  #footer .fab {
+    padding: 20px 0 0 0;
+  }
+  #footer .container .row{
+    text-align: center;
+  }
+  #footer .col-lg-3 {
+    padding: 0 ;
+}
+}
